@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>API ulash (oimdb)</title>
+</head>
+<body>
+     
+
+    
+    <button class="prev"><i class="fa-solid fa-chevron-right fa-flip-both fa-lg"></i></button>
+    <div class="container">
+        <form action="" class="form">
+            <input type="text" class="input" placeholder="Search...">
+            <button><i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+            <select class="selectInt" name="" id="">
+                <option class="selectOp" value="movie">movie</option>
+                <option class="selectOp" value="series">series</option>
+                <option class="selectOp" value="episode">episode</option>
+            </select>
+        </form>
+        <div class="card__wrapper">
+            <img src="./Dual Ring-0.8s-190px.svg" alt="">
+        </div>
+    </div>
+    <button class="next"><i class="fa-solid fa-chevron-right fa-lg"></i></button>
+    
+    
+    <template class="template">
+        <div class="card">
+            <img class="card__img" src="" alt="">
+            <h2 class="title"></h2>
+            <h3 class="year"></h3>
+        </div>
+    </template>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>

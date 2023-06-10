@@ -1,0 +1,95 @@
+form {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+}
+form button{
+    font-size: 1rem;
+    width: 20%;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.card__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+}
+.card {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: -10px 10px 18px #000000e3;
+    text-align: center;
+    font-family: sans-serif;
+    transition: .5s;
+}
+
+.card__img {
+    width: 100%;
+    height: 500px;
+    border-radius: 1rem;
+    object-fit: cover;
+    object-position: center center;
+}
+.card:hover {
+    box-shadow: -19px 19px 29px #000000;
+}
+
+.selectInt {
+    padding: 1rem;
+    width: 20%;
+    font-size: 1rem;
+    outline: none;
+}
+.selectOp{
+    padding: 1rem;
+    font-size: 1rem;
+    display: inline-block;
+}
+ 
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prev, .next {
+    padding: 0.999999rem 1.7rem;
+    font-size: 1.2rem;
+    background-color: #3fa5ff;
+    /* box-shadow: 8px 8px 13px #7cf2ff, -8px -8px 13px #008a8d; */
+    border: none;
+    outline: none;
+    /* border-radius: 50%; */
+    position: fixed;
+    color: #fff;
+}
+.button:disabled{
+    opacity: .1;
+    color: #000;
+}
+.prev {
+    top: 50%;
+    left: 0;
+    transform: rotate((180deg));
+}
+.next {
+    top: 50%;
+    right: 0;
+}
